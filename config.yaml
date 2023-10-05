@@ -1,7 +1,7 @@
 # Example configuration file for running the CABLE benchmarking.
 # 
 # Note, optional keys are available in this config file. See
-# http://cable-lsm.github.io/benchcab/user_guide/config_options/
+# https://benchcab.readthedocs.io/en/stable/user_guide/config_options/
 # for documentation on all the available keys.
 # 
 # This file is in YAML format. You can get information on the syntax here:
