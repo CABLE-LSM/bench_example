@@ -1,3 +1,4 @@
 src/
 runs/
 benchmark_cable_qsub.sh*
+rev_number-*.log
