@@ -15,8 +15,6 @@
 #
 # Strings can be given with or without double or single quotes.
 
-project: <project>
-
 experiment: five-site-test
 
 realisations:
