@@ -19,7 +19,6 @@ realisations:
   - repo:
       git:
         branch: main
-        commit: 67a52dc5721f0da78ee7d61798c0e8a804dcaaeb  # Last commit compatible with benchcab for now. See issue #14
   
 modules: [
   intel-compiler/2021.1.1,
