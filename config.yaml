@@ -6,6 +6,10 @@ realisations:
       git:
         branch: 123-benchcab-demo
     meorg_output_name: true
+    patch:
+      cable:
+        cable_user:
+          new_option: true
 
 fluxsite:
   experiment: five-site-test
