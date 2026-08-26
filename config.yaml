@@ -1,25 +1,15 @@
-# Example configuration file for running the CABLE benchmarking.
-# 
-# Note, optional keys are available in this config file. See
-# https://benchcab.readthedocs.io/en/stable/user_guide/config_options/
-# for documentation on all the available keys.
-# 
-# This file is in YAML format. You can get information on the syntax here:
-# https://yaml.org/spec/1.2.2/#chapter-2-language-overview
-# Quick tips:
-# You need a space after the ":"
-#
-# It uses the same syntax as Python for:
-#     - lists (aka sequences)
-#     - dictionaries (aka mappings with key/value pairs)
-#
-# Strings can be given with or without double or single quotes.
-
 realisations:
   - repo:
       git:
         branch: main
-  
+  - repo:
+      git:
+        branch: 123-benchcab-demo
+    meorg_output_name: true
+
+fluxsite:
+  experiment: five-site-test
+
 modules: [
   intel-compiler/2021.10.0,
   netcdf/4.7.4,
