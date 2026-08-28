@@ -15,6 +15,8 @@
 #
 # Strings can be given with or without double or single quotes.
 
+project: nf33
+
 realisations:
   - repo:
       git:
